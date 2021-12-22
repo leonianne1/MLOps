@@ -30,6 +30,8 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
+
+# This is a test - al
 # Split the dataframe into test and train data
 def split_data(df):
     X = df.drop('Y', axis=1).values
